@@ -9,7 +9,6 @@ class Command(BaseCommand):
         fake = Faker()
         num_rows = 1000
 
-        # Definindo as listas de opções para cada campo
         job_titles = ['analista', 'estagiário', 'gerente', 'coordenador']
         companies = ['A', 'B', 'C']
         cities = ['SP', 'RJ', 'MG']
