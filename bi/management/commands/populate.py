@@ -19,7 +19,7 @@ class Command(BaseCommand):
                 company=fake.random_element(elements=companies),
                 city=fake.random_element(elements=cities),
                 job_title=fake.random_element(elements=job_titles),
-                age=fake.random_int(min=18, max=70),
+                age=fake.random_int(min=18, max=50),
                 salary=round(fake.random_number(digits=4), 2)
             )
 
