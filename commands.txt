@@ -1,0 +1,18 @@
+VSC
+    python manage.py runserver
+
+    se não tiver populado:
+        python manage.py migrate
+        python manage.py populate
+        python manage.py runserver
+
+    Habilitar server no ngrok
+    Sobrescrever rota no allowed hosts 
+
+
+PBI
+    MyWorkspace (Teste JSON)
+    +NOVO
+    FLUXO DE DADOS
+    ADICIONAR TABELAS (parte superior do PBI web)
+    API WEB
